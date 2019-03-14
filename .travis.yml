@@ -15,16 +15,13 @@ addons:
       - python-lxml  # because pip installation is slow
       # needed because server-tools is loaded in the dependency chain
       - unixodbc-dev
-      - python-mysqldb
-      - libxmlsec1-dev
-      - libxml2-dev
-      - libxmlsec1-openssl
       - openssl
       - python-simplejson
       - python-serial
       - python-yaml
       - cups
       - libcups2-dev
+      - libzbar-dev
 
 env:
   global:
